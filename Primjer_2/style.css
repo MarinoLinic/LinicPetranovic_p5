@@ -2,4 +2,23 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	background-color: RGB(10, 10, 10);
+	height: 100vh;
+	overflow: hidden;
+
+	user-select: none; /* supported by Chrome and Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.tekst {
+	color: white;
+	padding: 2%;
+	font-family: monospace;
+}
+
+a {
+	color: fuchsia;
 }

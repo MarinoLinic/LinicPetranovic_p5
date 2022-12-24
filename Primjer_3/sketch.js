@@ -2,9 +2,15 @@ const rows = 100
 const cols = 100
 let grid = []
 let nextGrid = []
+let music
+
+function preload() {
+	music = loadSound('La_campanella_.mp3')
+}
 
 function setup() {
-	createCanvas(800, 400)
+	createCanvas(windowWidth, windowHeight * 0.8)
+	music.loop()
 	for (let i = 0; i < rows; i++) {
 		grid[i] = []
 		nextGrid[i] = []

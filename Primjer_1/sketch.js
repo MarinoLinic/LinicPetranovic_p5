@@ -1,12 +1,12 @@
 let particles = []
 
 function setup() {
-	createCanvas(400, 400)
+	createCanvas(windowWidth, windowHeight * 0.8)
 	colorMode(HSB, 360, 100, 100, 100)
 }
 
 function draw() {
-	background(10)
+	background(4)
 
 	if (mouseIsPressed) {
 		let mouse = createVector(mouseX, mouseY)
@@ -44,7 +44,7 @@ class Particle {
 	show() {
 		// stroke(0, this.lifespan)
 		// strokeWeight(2)
-		fill(360 * noise(frameCount * 0.01), 100, 100, this.lifespan)
+		fill(360 * noise(frameCount * 0.01), 255, 255, this.lifespan)
 		ellipse(this.pos.x, this.pos.y, 10, 10)
 	}
 
