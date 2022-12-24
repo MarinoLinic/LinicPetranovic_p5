@@ -1,4 +1,4 @@
-Seminarski rad - kolegij Multimedijski sustavi.
+Seminarski rad - kolegij Multimedijske tehnologije.
 
 Autori: Marino Linić i Marko Petranović
 
